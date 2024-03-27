@@ -19,7 +19,7 @@ const HeroSection = () => {
                     
                     sequence={[
                         // Same substring at the start will only be typed out once, initially
-                        'Jon Phey 👋🏻',
+                        'Jon Phey',
                         1500 // wait 1s before replacing "Mice" with "Hamsters"
                         // 'Web Developer',
                         // 1000
