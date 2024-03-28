@@ -69,11 +69,13 @@ const TAB_DATA = [
             <>
             <p className='italic'>What do you want to learn or do more of at work?</p>
             <br></br>
-            <p>Given the chance, I would like to learn and do more software development and engineering and learn to become a people manager.</p>
-            <br></br>
-            <p>I've recently completed a diploma that taught me the skills to become a Junior Fullstack Developer, and I would love to use those skills at work, and learn from other software engineers on how to grow in that career path.</p>
-            <br></br>
-            <p>Additionally, I want to learn what it means to be a good manager and people leader, and I would like to experience performing in this capacity at some stage in my career.</p>
+            <p>
+                Given the chance, I would like to learn and do more software development and engineering and learn to become a people manager.
+                <br></br><br></br>
+                I've recently completed a diploma that taught me the skills to become a Junior Fullstack Developer, and I would love to use those skills at work, and learn from other software engineers on how to grow in that career path.
+                <br></br><br></br>
+                Additionally, I want to learn what it means to be a good manager and people leader, and I would like to experience performing in this capacity at some stage in my career.
+            </p>
             </>
         )
     },
@@ -81,56 +83,89 @@ const TAB_DATA = [
         title: "Exercise 3",
         id: "exercise3",
         content: (
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis aspernatur voluptate distinctio temporibus error sunt nisi dolorem laudantium, aliquid non, nobis tempore molestiae quas, rem provident obcaecati expedita quod recusandae odio. Quidem commodi harum, ea libero sequi necessitatibus reiciendis temporibus velit facere neque atque quae illo minima voluptate, fugit quasi debitis iste aspernatur! Nihil repudiandae nobis voluptas, dolor illum, eligendi commodi labore maiores ad iure eos blanditiis similique et excepturi facilis, architecto deleniti in suscipit minus accusamus sit totam. Provident sint assumenda iure! Excepturi magnam earum sit, repellendus a natus animi repellat consectetur dolor ea nesciunt alias accusamus nulla nobis iusto commodi mollitia! Porro perferendis totam perspiciatis, aperiam cupiditate veniam sit ullam mollitia id quam rerum qui tempora voluptatum voluptas temporibus ducimus. Tempora eveniet eius dolores error quos quo repellendus, deleniti deserunt rerum quia voluptas optio dolorum necessitatibus sit cupiditate, architecto dicta accusantium unde ab, et eum veritatis ullam! Neque hic magnam corrupti dolor voluptatum quisquam enim deserunt adipisci quis quas quasi odit perspiciatis, delectus ad facere debitis quos amet recusandae fuga et minus placeat. Deserunt dolore aut temporibus omnis ab rem, error iure perspiciatis porro labore iste eligendi id consectetur! Numquam accusamus vel repellat vero, voluptatibus quidem deserunt minima.</p>
+            <>
+            <p className='italic'>Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</p>
+            <br></br>
+            <p>
+                During my time in the customer support team at Slack, I encountered a challenge and technical issue where a large enterprise client was experiencing issues with their SSO and SCIM API integrations, causing disruptions to their access to Slack.
+                I was tasked with diagnosing and resolving the issue for the customer, so that their users could log back into Slack and have their user profiles synced as expected with their identity provider (Okta).
+                <br></br><br></br>
+                Action, Result, 
+                <br></br><br></br>
+                How did I determine my solution was successful?
+            </p>
+
+            </>
         )
     },
     {
         title: "Exercise 4",
         id: "exercise4",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 5",
         id: "exercise5",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 6",
         id: "exercise6",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 7",
         id: "exercise7",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 8",
         id: "exercise8",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 9",
         id: "exercise9",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     },
     {
         title: "Exercise 10",
         id: "exercise10",
         content: (
-            <p></p>
+            <>
+            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <br></br>
+            </>
         )
     }
 ]
