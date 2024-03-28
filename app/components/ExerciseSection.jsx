@@ -14,23 +14,50 @@ const TAB_DATA = [
                 <br></br>
                 <p className='font-bold'>Favourites</p>
                     <ol className=' list-decimal pl-5'>
+                        <li>Work with the product team to develop a new feature based on feedback from customers</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>I love being the voice of the customer, acting as the conduit between customers and product teams, and having input into the company's latest features.</li>
+                            </ul>
                         <li>Run ticket review sessions to make sure tone is consistent</li>
                             <ul className=' list-disc pl-5'>
-                                <li>Reason</li>
+                                <li>I'm detail oriented, enjoy QA and have experience aligning my outbound replies, documentation and social media posts to a company's tone of voice.</li>
                             </ul>
-                        <li>Work with the product team to develop a new feature based on feedback from customers</li>
                         <li>Find and recruit teammates for the support team</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>I have experience interviewing and scaling support teams and enjoy building out a well-rounded, diverse team that suits a company's desired culture.</li>
+                            </ul>
                         <li>Manage a support team</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>While I don't have formal experience as a manager, I have mentoring and coaching experience, and would love to experience being a people leader in the future.</li>
+                            </ul>
                         <li>Write and maintain support articles and docs pages</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>I believe support articles and docs should be easy to follow and accessible to anyone, and I enjoy making complex topics and instructions simple to understand.</li>
+                            </ul>
                     </ol>
                 <br></br>
                 <p className='font-bold'>Least favourite</p>
                     <ol className=' list-decimal pl-5'>
                         <li>Help resolve billing issues for customers</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>While I'm very familiar with supporting billing and charges for subscription models, it is not my favourite task, as it so often relies on the bank and credit cards.</li>
+                            </ul>
                         <li>Work with 3rd party partners to track down a tricky situation for a joint customer</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>Collaborating together with a 3rd party and joint customer can be fun to untangle a situation, although it can often be very time consuming due to the back-and-forth.</li>
+                            </ul>
                         <li>Analyze hundreds of support tickets to spot trends the product team can use</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>I actually love data analysis and finding trends, although manually checking hundreds of tickets sounds laborious and I would hope the ticketing system provides some insights.</li>
+                            </ul>
                         <li>Engage multiple users at once in a public discussion, to answer their questions and troubleshoot problems</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>I've moderated and taken questions live on stage and in video conferences, and while I find fun in it, I don't believe it's as productive in answering everyone's questions and problems.</li>
+                            </ul>
                         <li>Identify, file (and, where possible, resolve) bugs in private and public Vercel/Next.js repos on GitHub</li>
+                            <ul className=' list-disc pl-5'>
+                                <li>Through thorough testing, I love finding and filing bugs, but I believe this should be filed in a place that might have greater visibility for engineers to prioritise.</li>
+                            </ul>
                     </ol>
             </>
         )

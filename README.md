@@ -2,6 +2,9 @@
 
 The purpose of this Next.js project is to respond to an interview assessment. This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+### Deployed on Vercel:
+https://jphey-assessment.vercel.app/ 
+
 ## Getting Started
 
 First, run the development server:
