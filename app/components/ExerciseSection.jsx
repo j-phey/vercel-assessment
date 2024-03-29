@@ -10,7 +10,7 @@ const TAB_DATA = [
         id: "exercise1",
         content: ( 
             <>
-            <p className='italic'>From <Link href='https://gist.github.com/Pieparker/b04a4e9ff82ba949e5db9d5b0e9d89e8' className=' text-pink-400' target="_blank">this</Link> list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</p>
+            <p className='italic text-slate-300'>From <Link href='https://gist.github.com/Pieparker/b04a4e9ff82ba949e5db9d5b0e9d89e8' className=' text-pink-400' target="_blank">this</Link> list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</p>
                 <br></br>
                 <p className='font-bold'>Favourites</p>
                     <ol className=' list-decimal pl-5'>
@@ -67,7 +67,7 @@ const TAB_DATA = [
         id: "exercise2",
         content: (
             <>
-            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <p className='italic text-slate-300'>What do you want to learn or do more of at work?</p>
             <br></br>
             <p>
                 Given the chance, I would like to learn and do more software development and engineering and learn to become a people manager.
@@ -84,7 +84,7 @@ const TAB_DATA = [
         id: "exercise3",
         content: (
             <>
-            <p className='italic'>Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</p>
+            <p className='italic text-slate-300'>Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</p>
             <br></br>
             <p>
                 During my time in the customer support team at Slack, I encountered a challenge and technical issue where a large enterprise client was experiencing issues with their SSO and SCIM API integrations, causing disruptions to their access to Slack.
@@ -109,7 +109,7 @@ const TAB_DATA = [
         id: "exercise4",
         content: (
             <>
-            <p className='italic'>When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</p>
+            <p className='italic text-slate-300'>When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</p>
             <br></br>
             <p className='font-bold'>Edge Functions</p>
             <ul className='list-disc pl-5'>
@@ -144,7 +144,7 @@ const TAB_DATA = [
         id: "exercise5",
         content: (
             <>
-            <p className='italic'>Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and 
+            <p className='italic text-slate-300'>Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and 
             what questions would you ask the customer to understand the situation better?</p>
             <br></br>
 
@@ -194,8 +194,28 @@ const TAB_DATA = [
         id: "exercise6",
         content: (
             <>
-            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <p className='italic text-slate-300'>
+            The customer from question 5 replies to your response with the below:<br></br><br></br>
+            “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”
+            <br></br><br></br>Please write a follow-up reply to the customer.
+            </p>
             <br></br>
+
+            <p>"Hi there,
+            <br></br><br></br>
+            I'm terribly sorry for the frustration this has caused and I really appreciate the hours you've spent trying to figure this out. 
+            <br></br><br></br>
+            I'm going to make every effort to confirm if the issue you're seeing is occurring due to our platform and will help you resolve it so that you can continue with your build. 
+            While I understand it can be tedious to answer some of the questions that I asked, this will be really helpful in making sure I have all of the information I need from you to resolve the issue, both on our platform and at any potential third parties.
+            <br></br><br></br>
+            Once I have this information from you, I'll have a lot of what I need to reproduce the issue and resolve it, and I'll do my best to minimise the amount of additional back-and-forth required.
+            <br></br><br></br>
+            Thanks for your cooperation and understanding, and I'll be looking out for your reply so that we can get this fixed as soon as possible.
+            
+            <br></br><br></br>
+            Kind regards,<br></br>
+            Jon
+            </p>
             </>
         )
     },
