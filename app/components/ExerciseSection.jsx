@@ -10,7 +10,7 @@ const TAB_DATA = [
         id: "exercise1",
         content: ( 
             <>
-            <p className='italic font-bold text-slate-300'>From <Link href='https://gist.github.com/Pieparker/b04a4e9ff82ba949e5db9d5b0e9d89e8' className=' text-pink-400' target="_blank">this</Link> list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</p>
+            <p className='italic font-bold text-slate-400'>From <Link href='https://gist.github.com/Pieparker/b04a4e9ff82ba949e5db9d5b0e9d89e8' className=' text-pink-400' target="_blank">this</Link> list, rank your 5 most favourite and 5 least favourite support tasks. Provide a brief explanation for each.</p>
                 <br></br>
                 <p className='font-bold'>Favourites</p>
                     <ol className=' list-decimal pl-5'>
@@ -67,7 +67,7 @@ const TAB_DATA = [
         id: "exercise2",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>What do you want to learn or do more of at work?</p>
+            <p className='italic font-bold text-slate-400'>What do you want to learn or do more of at work?</p>
             <br></br>
             <p>
                 Given the chance, I would like to learn and do more software development and engineering and learn to become a people manager.
@@ -84,7 +84,7 @@ const TAB_DATA = [
         id: "exercise3",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</p>
+            <p className='italic font-bold text-slate-400'>Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?</p>
             <br></br>
             <p>
                 During my time in the customer support team at Slack, I encountered a challenge and technical issue where a large enterprise client was experiencing issues with their SSO and SCIM API integrations, causing disruptions to their access to Slack.
@@ -109,7 +109,7 @@ const TAB_DATA = [
         id: "exercise4",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</p>
+            <p className='italic font-bold text-slate-400'>When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</p>
             <br></br>
             <p className='font-bold'>Edge Functions</p>
             <ul className='list-disc pl-5'>
@@ -144,7 +144,7 @@ const TAB_DATA = [
         id: "exercise5",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and 
+            <p className='italic font-bold text-slate-400'>Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and 
             what questions would you ask the customer to understand the situation better?</p>
             <br></br>
 
@@ -194,7 +194,7 @@ const TAB_DATA = [
         id: "exercise6",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>
+            <p className='italic font-bold text-slate-400'>
             The customer from question 5 replies to your response with the below:<br></br><br></br>
             “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.”
             <br></br><br></br>Please write a follow-up reply to the customer.
@@ -224,7 +224,7 @@ const TAB_DATA = [
         id: "exercise7",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>
+            <p className='italic font-bold text-slate-400'>
             A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
             </p>
             <br></br>
@@ -281,7 +281,7 @@ const TAB_DATA = [
         id: "exercise8",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>
+            <p className='italic font-bold text-slate-400'>
                 A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. 
                 Feel free to add any information about your decision making process after the reply.
             </p>
@@ -315,7 +315,7 @@ const TAB_DATA = [
         id: "exercise9",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>
+            <p className='italic font-bold text-slate-400'>
                 What do you think is one of the most common problems which customers ask Vercel for help with? 
                 How would you help customers to overcome common problems, short-term and long-term?
             </p>
@@ -337,7 +337,7 @@ const TAB_DATA = [
         id: "exercise10",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>How could we improve or alter this familiarisation exercise?</p>
+            <p className='italic font-bold text-slate-400'>How could we improve or alter this familiarisation exercise?</p>
             <br></br>
             <p>
                 Overall, I thought that this exercise was great on two fronts - getting the candidate to become familiar with Next.js and deploying on Vercel, and in becoming familiar with the types of questions that Vercel Customer Success Engineers may need to address.
@@ -368,7 +368,7 @@ const ExerciseSection = () => {
         <div className="md:grid md:grid-cols-1 gap-8 items-center py-8 xl:gap-16 sm:py-16">
             {/* <Image src="/images/about-image.png" width={500} height={500} /> */}
             <div className='mt-4 md:mt-0 text-left flex flex-col h-full'>
-                <h2 className='text-4xl font-bold text-white mb-4'>Exercises</h2>
+                <h2 className='text-4xl font-bold text-purple-500 mb-4'>Exercises</h2>
                 <p className='text-base lg:text-lg'>
                     Each tab below correlates to the exercise number. Please click on each exercise to navigate through the responses.
                 </p>
