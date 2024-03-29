@@ -315,8 +315,20 @@ const TAB_DATA = [
         id: "exercise9",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>What do you want to learn or do more of at work?</p>
+            <p className='italic font-bold text-slate-300'>
+                What do you think is one of the most common problems which customers ask Vercel for help with? 
+                How would you help customers to overcome common problems, short-term and long-term?
+            </p>
             <br></br>
+            <p>
+                I think one of the most common problems which customers ask Vercel for help with are problems related to their project deployment or their build.
+                <br></br><br></br>
+                In terms of how I would help customers overcome common problems in the short-term, I would go through immediate troubleshooting steps with the 
+                customer through the available channels and ensure that the customer had clear instructions and the relevant guides and documentation to resolve the issue they're seeing.
+                <br></br><br></br>
+                As for long-term, I would make sure that Vercel's documentation is accurate, up-to-date, and directly addressing the most common problems and issues, which may require some analysis on ticket trends and obtaining feedback on documentation.
+                For wider reach, recording short informational videos hosted online may help those that prefer a more visual way of guidance and may allow customers to follow along more easily.
+            </p>
             </>
         )
     },
