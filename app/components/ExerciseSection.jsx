@@ -337,8 +337,17 @@ const TAB_DATA = [
         id: "exercise10",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>What do you want to learn or do more of at work?</p>
+            <p className='italic font-bold text-slate-300'>How could we improve or alter this familiarisation exercise?</p>
             <br></br>
+            <p>
+                Overall, I thought that this exercise was great on two fronts - getting the candidate to become familiar with Next.js and deploying on Vercel, and in becoming familiar with the types of questions that Vercel Customer Success Engineers may need to address.
+                <br></br><br></br>
+                In terms of improvements, I understand there's likely a reason why exercise 1 has a set list of support tasks or why they're worded a certain way, but I did find myself thinking if adding a certain task in 'favourite' or 'least favourite' would hinder my chances. 
+                As the majority of those tasks are likely required to perform in the role, I did find it difficult to choose (although I was still truthful)! 
+                It might go a long way to add a short note about the intentions so that candidates are not spending too much time agonising over their choice.
+                <br></br><br></br>
+                This is otherwise a nitpick. I honestly didn't have too many suggestions to improve it, and I enjoyed the mix of practical tasks and exercises that simply asked more personal questions to get to know candidates. Good job, Vercel! 
+            </p>
             </>
         )
     }
