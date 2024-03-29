@@ -144,8 +144,48 @@ const TAB_DATA = [
         id: "exercise5",
         content: (
             <>
-            <p className='italic'>What do you want to learn or do more of at work?</p>
-            <br></br>            
+            <p className='italic'>Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and 
+            what questions would you ask the customer to understand the situation better?</p>
+            <br></br>
+
+            <p>I would begin troubleshooting by first understanding the customer's environment, what the issue or error is, and the steps they took to get to the point of the issue.
+            <br></br><br></br> 
+            Assuming I don't have any preliminary information available to me, to understand the customer's environment, I would ask questions such as:
+                <ul className='list-disc pl-5'>
+                    <li>"What operating system are you using? e.g. Windows, Mac, Linux, Mobile OS"</li>
+                    <li>"If using a web browser, does the build issue occur on all browsers or a specific browser? If specific, please share your browser name and version."</li>
+                    <li>"What version of [operating system] are you using?"</li>
+                    <li>"What is the name of the framework, technology or tools being used where the issue is occurring?"</li>
+                </ul>
+            <br></br>
+            While I haven't seen the framework or technology before, by obtaining the name of it, I can at the very least begin researching the framework or technology and seeing the correlations with Vercel (or relevant supported software).
+            By obtaining their environment information, I can also ensure that I am able to perform testing on and potentially isolate the issue to certain browsers or operating systems.
+            <br></br><br></br>
+
+            To understand what the issue or error is, I would ask questions such as:
+                <ul className='list-disc pl-5'>
+                    <li>"Can you please copy and paste the issue or error message (if any)?"</li>
+                    <li>"Can you please share a screenshot or screen capture of the issue?"</li>
+                </ul>
+            <br></br>
+            By obtaining as much information as I can from what the user sees on their side, I can further research both internally and externally for similar cases of the error message.
+            Given that sometimes the issue is not something you can copy and paste as text, a screenshot, or even better, a screen capture or clip, will allow me to diagnose the issue visually.
+            <br></br><br></br>
+
+            To understand how the customer got to the point of the build issue, I would ask questions such as:
+                <ul className='list-disc pl-5'>
+                    <li>"Can you please share the steps you took before and at the time the build issue occurred?"</li>
+                    <li>"Can you please share the steps to reproduce the build issue?"</li>
+                    <li>"Can you please export or share the stack trace or error logs (if any)?"</li>
+                </ul>
+            </p>
+            <br></br>
+            These questions will further allow me to take the time to try to understand how the customer got to where they are, and gives me the chance to try to reproduce the issue on my side.
+            By attempting to reproduce the issue, I can better understand if the issue is widespread, a known bug, or perhaps isolated to the user's environment. Furthermore, the error logs or stack trace will
+            allow me to perform a deeper analysis of the build steps that led to the issue, which can help technical staff and myself further diagnose if there is an issue on the company's side.
+            <br></br><br></br>
+            By asking these questions, despite not being familiar with the framework or technology that the customer is using, I can create a more well-rounded view of what the customer sees, their setup, and how the issue occurred.
+            This puts me in a better position to begin digging into the issue and getting familiar with the framework or technology so that I'll be able to troubleshoot more effectively down the track.
             </>
         )
     },
