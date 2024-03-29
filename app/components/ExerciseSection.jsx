@@ -224,8 +224,47 @@ const TAB_DATA = [
         id: "exercise7",
         content: (
             <>
-            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <p className='italic text-slate-300'>
+            A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+            </p>
             <br></br>
+
+            <p>"Hi there,
+            <br></br><br></br>
+            Thanks for reaching out to us at Vercel!
+            <br></br><br></br>
+            Depending on your use case, you can add an in-application redirect to redirect the /blog path to https://example.com. For example, if you're not working on a Next.js project, you can modify your vercel.json file in a similar way as below:
+            <br></br><br></br>
+            <code>
+            {'{'}
+            <br></br>
+            &nbsp;&nbsp;"redirects": [
+                <br></br>
+                &nbsp;&nbsp;&nbsp;&nbsp;{'{'}
+                    <br></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"source": "/blog",
+                    <br></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"destination": "https://example.com", 
+                    <br></br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"permanent": true
+                <br></br>
+                &nbsp;&nbsp;&nbsp;&nbsp;{'}'}
+            <br></br>
+            &nbsp;&nbsp;]
+            <br></br>
+            {'}'}
+            </code>
+            
+            <br></br><br></br>
+            Just remember to modify the variables and the right file (next.config.js or vercel.json) depending on your use case. You can follow our guide on redirects here: https://vercel.com/guides/does-vercel-support-permanent-redirects 
+            <br></br><br></br>
+            In case you're curious, additional information about creating redirects with Vercel can be found in our documentation: https://vercel.com/docs/edge-network/redirects
+            <br></br><br></br>
+            I hope this helps, and if you have any other questions about this redirect or anything else about Vercel, please don't hesitate to get back in touch.
+            <br></br><br></br>
+            Kind regards,<br></br>
+            Jon"
+            </p>
             </>
         )
     },
