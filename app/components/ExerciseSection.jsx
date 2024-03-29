@@ -109,8 +109,33 @@ const TAB_DATA = [
         id: "exercise4",
         content: (
             <>
-            <p className='italic'>What do you want to learn or do more of at work?</p>
+            <p className='italic'>When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?</p>
             <br></br>
+            <p className='font-bold'>Edge Functions</p>
+            <ul className='list-disc pl-5'>
+                <li>Used when users need a cost-effective option to run lightweight JavaScript functions that are executed closer to where the user is located.</li>
+                <li>Ideally used for when speed and lower latency is important.</li>
+                <li>Runs after the cache, and the response itself can be cached, allowing for even quicker subsequent invocations.</li>                
+            </ul>
+            <p className='italic text-sm'>(Source: https://vercel.com/docs/functions/runtimes/edge-runtime)</p>
+
+            <br></br>
+            <p className='font-bold'>Serverless Functions</p>
+            <ul className='list-disc pl-5'>
+                <li>Used when users need to run intense or large functions, which require more RAM, CPU and complete Node.js compatability.</li>
+                <li>Ideally used for when speed is not of upmost importance, but complexity is, as it may take longer than the Edge runtime.</li>
+                <li>Supports entry points of Node.js functions and supports Python, Ruby and Go, take the respective runtimes and outputting as a Serverless Function.</li>                
+            </ul>
+            <p className='italic text-sm'>(Source: https://vercel.com/docs/functions/runtimes)</p>
+
+            <br></br>
+            <p className='font-bold'>Edge Middleware</p>
+            <ul className='list-disc pl-5'>
+                <li>Used when users need to execute some code before a request is processed on a site.</li>
+                <li>Ideally used for when certain limitations can be met, such as using ES modules, not being dependent on many Node.js APIs and dynamic code execution.</li>
+                <li>Runs before the cache, allowing custom code and logic to be executed and providing personsalition to statically generated content.</li>                
+            </ul>
+            <p className='italic text-sm'>(Source: https://vercel.com/docs/functions/edge-middleware, https://vercel.com/docs/functions/edge-middleware/limitations)</p>
             </>
         )
     },
@@ -120,7 +145,7 @@ const TAB_DATA = [
         content: (
             <>
             <p className='italic'>What do you want to learn or do more of at work?</p>
-            <br></br>
+            <br></br>            
             </>
         )
     },
