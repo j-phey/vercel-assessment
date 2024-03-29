@@ -281,8 +281,32 @@ const TAB_DATA = [
         id: "exercise8",
         content: (
             <>
-            <p className='italic font-bold text-slate-300'>What do you want to learn or do more of at work?</p>
+            <p className='italic font-bold text-slate-300'>
+                A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. 
+                Feel free to add any information about your decision making process after the reply.
+            </p>
             <br></br>
+            <p>"Hi there,
+            <br></br><br></br>
+            Thanks for reaching out to us at Vercel!
+            <br></br><br></br>
+            In order to prevent your project from being indexed by search engines, simply make sure that the 'X-Robots-Tag' HTTP header is set to 'noindex', or include `X-Robots-Tag: noindex` in the header.
+            <br></br><br></br>
+            For context, Vercel already automatically adds this for any Preview deployments, as duplicate content can negatively impact the SEO. So if this is for a production deployment, just ensure you have the above in the header.
+            <br></br><br></br>
+            In case you're curious, Vercel has a guide that goes into more detail about indexing and how to allow or prevent this here: https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines
+            <br></br><br></br>
+            I hope this helps, and if you have any other questions about your Vercel deployments and indexing, or anything else about Vercel, please don't hesitate to get back in touch.
+            <br></br><br></br>
+            Kind regards,<br></br>
+            Jon"
+            </p>
+            <br></br>
+
+            <p>Additional information on decision making process:</p>
+            <ul className='list-disc pl-5'>
+                <li>Assuming I did not know whether the customer's question was about a preview or production deployment.</li>
+            </ul>
             </>
         )
     },
