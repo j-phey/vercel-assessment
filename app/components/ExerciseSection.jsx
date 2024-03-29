@@ -90,9 +90,15 @@ const TAB_DATA = [
                 During my time in the customer support team at Slack, I encountered a challenge and technical issue where a large enterprise client was experiencing issues with their SSO and SCIM API integrations, causing disruptions to their access to Slack.
                 I was tasked with diagnosing and resolving the issue for the customer, so that their users could log back into Slack and have their user profiles synced as expected with their identity provider (Okta).
                 <br></br><br></br>
-                Action, Result, 
+                When the customer wrote in, I replied with a number of preliminary questions, such as for a screenshot of the error (if any) and what browsers, apps and devices the issue is occurring on. 
+                Following their response, with no obvious conclusions, I scanned the customer's SCIM API logs and indeed noticed that there were a number of 'username_invalid' errors in the logs. 
+                This led me to believe that their identity provider was not passing across the required username value upon authentication, so I asked for a screenshot of their Okta configuration page for the Slack app.
+                Upon review, the customer had set the username field to correspond to the company's email addresses, which I realised would not work due to Slack expecting usernames consisting of just alphanumeric characters.
+                After asking the customer to change the userName attributes and instead create an email attribute as the unique identifier in Okta, I prompted the customer to ask their users to try logging in again.
                 <br></br><br></br>
-                How did I determine my solution was successful?
+                After the customer mentioned that the users were able to login through Okta once again following the configuration change, I sent the user Slack's SCIM API documentation to ensure they understood what fields were required at all times (https://api.slack.com/admins/scim) to prevent and troubleshoot future issues.
+                Beyond the customer's response, I was able to determine that my solution was successful as I crawled through the customer's SCIM logs once again, and noticed that there were no recent erroneous logins, and users who were previously having issues were appearing with successful authentication tokens once more.
+  
             </p>
 
             </>
